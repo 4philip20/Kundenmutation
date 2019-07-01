@@ -1,0 +1,545 @@
+body {
+    font-family: sans-serif;
+    font-size: 11px;
+    background-color: #DDDDDD;
+}
+
+table {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+/* Select und input werden getrennt.*/
+input {
+    font-family: sans-serif;
+    font-size: 11px;
+    /*width: 100%;*/
+    height: 1.5em;
+    font-size: 1em;
+
+}
+select {
+    font-family: sans-serif;
+    font-size: 11px;
+    width: 100%;
+    height: 2em;
+    font-size: 1em;
+    background-color: white;
+
+}
+
+div.container {
+    width: 670px;
+    padding-top: 1px;
+    border: 1px solid #999999;
+    margin-bottom: 10px;
+}
+
+div.container0 {
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 680px;
+    padding-top: 1px;
+    border: 0px solid #999999;
+}
+
+div.border {
+    width: 680px;
+}
+
+.tm {
+    background-color: yellow;
+}
+
+.tr {
+    background-color: greenyellow;
+}
+
+#center {
+    margin: auto;
+}
+
+.labelwidth {
+    display: inline-block;
+    width: 90px;
+}
+
+.Sprache {
+    text-align: right;
+}
+/* margin-top: 50%; */
+.footer {
+    font-size: 80%;
+    text-align: right;
+}
+
+.legende{
+    font-size: 80%;
+    text-align: left;
+
+}
+.legend{
+    border: 1px solid black;
+    height: 39px;
+    width: 113px;
+    font-size: 80%;
+    text-align: left;
+    float: right;
+}
+
+/* Formaierung der Überschrift */
+.uberschrift00 {
+    border: 20px;
+}
+.fliesElementmultible1{
+    float: left;
+    width: 25%;
+    border-width: 1px;
+    height: 42px;
+}
+
+.fliesElementmultible2{
+    float: left;
+    width: 25%;
+    border-width: 1px;
+    height: 42px;
+}
+
+.fliesElementmultible3{
+    float: left;
+    width: 25%;
+    border-width: 1px;
+    height: 42px;
+}
+
+.fliesElementmultible4{
+    float: left;
+    width: 25%;
+    border-width: 1px;
+    height: 42px;
+}
+
+.fliesElementmultible5{
+    float: left;
+    width: 25%;
+    border-width: 1px;
+    height: 42px;
+}
+/* Standart fliesElement = div um alle Formularelement inkl. Label.*/
+.fliesElement {
+    float: left;
+    width: 25%;
+    border-width: 1px;
+
+
+    height: 42px;
+    /* Border Style muss weg beim Produktiven*/
+   /* border: 1px solid red;*/
+    /* höhe normal 43px */
+    /*height: 43px;*/
+
+    /*margin-bottom: 3px;*/
+}
+.fliesElementPrint{
+    float: left;
+    width: 97%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+
+    /* höhe normal 80px */
+   /* height: 80px;*/
+}
+
+
+input.inputfled{
+    border: 1px solid black;
+}
+input.labelcheckboxdefault{
+    font-size: initial;
+    /*
+    float: left;
+    */
+}
+
+/* Überschrift */
+.ueberschriftUmbruch {
+    padding-top: 1px;
+    clear: both;
+    border-bottom: 1px solid black;
+    /* margin-bottom: 10px; */
+}
+
+.ueberschriftUmbruch1 {
+    padding-top: 20px;
+    clear: both;
+    border-bottom: 1px solid black;
+    /* margin-bottom: 10px; */
+}
+
+.labeldefault {
+    font-weight: bold;
+
+    /*   background-color: #316091;
+       color: #ddeff1;
+       margin: 23px auto 0 auto;
+       border-radius: 10px;
+       width: 650px;
+       box-shadow: 0 0 2px 2px #d9d9d9;
+       width: 100px;
+       display: block;
+   */
+    /* Hier muss nichts hin, den HTML löst Problem automatisch */
+}
+
+.inputfled {
+    width: 95%;
+}
+
+.labelcheckboxdefault {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    font-size: 1em;
+    height: 0.8em
+
+}
+/* Titelelemente */
+h2 {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-block-start: 0.2em;
+    margin-block-end: 0em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+}
+
+#8{
+    margin-top: 100px;
+}
+
+.kopf{
+    text-align: center;
+}
+
+.fliesElementPrint1{
+    float: left;
+    width: 104%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+
+.fliesElementPrint2{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint3{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint5{
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.fliesElementPrint4{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/    clear: both;
+}
+.fliesElementPrint6{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+    clear: both;
+}
+.fliesElementPrint7{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+
+.fliesElementPrint8{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint9{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint10{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint11{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /*TEST ZEWCKEN*/
+    /*margin-top: 30px;*/
+
+}
+.fliesElementPrint12{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint13{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint14{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint15{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint16{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.fliesElementPrint17{
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    /* Border Style muss weg beim Produktiven*/
+    /*border: 1px solid red;*/
+    /* höhe normal 80px */
+    /* height: 80px;*/
+}
+.header{
+    margin-top: 5px;
+    position: absolute;
+}
+
+.floatcheck1{
+    float: left;
+    width: 25%;
+}
+.floatcheck2{
+    float: left;
+    width: 20%;
+}
+.floatcheck3{
+    float: left;
+    width: 25%;
+}
+.floatcheck4{
+    float: left;
+    width: 25%;
+}
+.floatcheck5{
+    float: left;
+    width: 25%;
+}
+.floatradio1{
+    float: left;
+    width: 21%;
+}
+.floatradio2{
+    float: left;
+    width: 15%;
+}
+.floatradio3{
+    float: left;
+    width: 15%;
+}
+.floatradio4{
+    float: left;
+}
+.floatradio5{
+    float: left;
+}
+
+.floatradio6{
+    float: left;
+}
+
+.floatradio7{
+    float: left;
+    width: 24%;
+}
+.floatradio8{
+    float: left;
+    width: 16%;
+}
+.floatradio9{
+    float: left;
+    width: 19%;
+}
+.floatradio10{
+    float: left;
+    width: 19%;
+}
+.floatradio11{
+    float: left;
+    width: 19%;
+}
+.floatradio12{
+    float: left;
+    width: 19%;
+}
+.floatradio13{
+    float: left;
+    width: 19%;
+}
+.floatradio14{
+    float: left;
+    width: 19%;
+}
+.floatradio15{
+    float: left;
+    width: 19%;
+}
+.floatradio16{
+    float: left;
+    width: 20%;
+}
+.floatradio17{
+    float: left;
+    width: 20%;
+}
+.umbruch {
+    page-break-before: always;
+}
+.invisibleEver{
+    visibility: hidden;
+}
+.floatcheckresult1{
+    float: left;
+    width: 20%;
+}
+.floatcheckresult2{
+    float: left;
+    width: 20%;
+}
+.floatcheckresult3{
+    float: left;
+    width: 25%;
+}
+.picture{
+    width: 108px;
+    height: 39px;
+}
+
+
+
+/* TEST */
+/*
+label#selected{
+    background-color: green;
+}
+
+label#unselected{
+    background-color: red;
+}
+*/
+/* Ist für Neue Seite beim Drucken, Abstand damit nicht abgeschnitten wird.*/
+
+@media print {
+
+    .invisible{
+       visibility: hidden;
+    }
+
+    div.umbruch{
+        page-break-before:always;
+
+    }
+
+    .umbruch {
+        page-break-before:always;
+    }
+
+    /* Ist für Neue Seite beim Drucken, Abstand damit nicht abgeschnitten wird.*/
+    .AbstandUmbruch{
+        margin-bottom: 15px;
+        height: 10px;
+        /* Testzwecke
+        border: 10px solid black;
+        */
+    }
+    /*
+        .fliesElementPrint9{
+            margin-top: 32px;
+        }
+
+            .fliesElementPrint7{
+                margin-top: 32px;
+            }
+        */
+    .footer{
+        bottom: 0;
+    }
+
+    @page {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
